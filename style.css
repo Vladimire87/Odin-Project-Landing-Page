@@ -15,7 +15,7 @@ body {
 
 .header, nav {
   max-width: 1024px;
-  height: 60px;
+  height: 62px;
   display: flex;
   margin: auto;
   justify-content: space-between;
@@ -47,7 +47,7 @@ a {
 
 .hero {
   padding-top: 110px;
-  padding-bottom: 125px;
+  padding-bottom: 124px;
   display: flex;
   max-width: 1024px;
   margin: auto;
@@ -81,4 +81,31 @@ a {
   color: white;
   border-radius: 5px;
   font-size: 18px;
+}
+
+.container-information {
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  max-width: 890px;
+  margin: auto;
+  margin-top: 54px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 44px;
+  margin-bottom: 32px;
+  color: #1F2937;
+}
+
+.info img{
+  max-width: 200px;
+  border-radius: 16px;
+}
+
+.text-information {
+  max-width: 156px;
+  padding-top: 5px;
 }
