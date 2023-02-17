@@ -199,3 +199,15 @@ a {
   padding-right: 120px;
   padding-bottom: 9px;
 }
+
+.img img {
+  border-radius: 15px;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 1em;
+  margin: -1em;
+}
