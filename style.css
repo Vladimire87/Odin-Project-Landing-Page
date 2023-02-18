@@ -1,6 +1,13 @@
 * {
   border: 0px red dotted;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
   text-align: center;
@@ -9,9 +16,9 @@ body {
 
 .container {
   max-width: 100%;
-
   background-color: #1f2937;
   margin: auto;
+  padding: 10px;
 }
 
 .header,
@@ -115,7 +122,7 @@ a {
 .container-quote {
   background-color: #e5e7eb;
   max-width: 100%;
-  height: 428px;
+  min-height: 428px;
   margin: auto;
 }
 
@@ -146,19 +153,17 @@ a {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  flex: 1;
-  height: 100px;
+  min-height: 100px;
   justify-content: center;
-  font-weight: 100;
   font-style: italic;
   font-weight: bold;
 }
 
 .call-to-action {
   display: flex;
-  width: 1024px;
+  max-width: 1024px;
   background-color: #3882f6;
-  height: 150px;
+  min-height: 150px;
   border-radius: 10px;
   margin: auto;
   margin-top: 100px;
@@ -169,7 +174,7 @@ a {
 }
 
 .call-to-action-title {
-  width: 1024px;
+  max-width: 1024px;
   font-size: 24px;
   font-weight: bold;
   display: flex;
